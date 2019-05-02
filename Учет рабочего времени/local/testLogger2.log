@@ -1,0 +1,1250 @@
+Array
+(
+    [ID] => 13886
+    [~ID] => 13886
+    [NAME] => 1
+    [~NAME] => 1
+    [PROPERTY_586_VALUE] => 1732
+    [~PROPERTY_586_VALUE] => 1732
+    [PROPERTY_586_VALUE_ID] => 39074
+    [~PROPERTY_586_VALUE_ID] => 39074
+)
+
+****************//////////////Array
+ИЗ ИНФОБЛОКА берем все по ID сделки
+Array
+(
+    [0] => Array
+        (
+            [ID] => 13885
+            [HOURS] => 5
+        )
+
+    [1] => Array
+        (
+            [ID] => 13886
+            [HOURS] => 3
+        )
+
+)
+
+/****************************/
+Это то, что отдает при обнослении инфоблока (дописать создание)
+
+Array
+(
+    [NAME] => 1,5
+    [MODIFIED_BY] => 676
+    [PROPERTY_VALUES] => Array
+        (
+            [585] => Array
+                (
+                    [39073] => Array
+                        (
+                            [VALUE] => 12.07.2018
+                        )
+
+                )
+
+            [586] => Array
+                (
+                    [39074] => Array
+                        (
+                            [VALUE] => 1732
+                        )
+
+                )
+
+            [587] => 668
+            [588] => Array
+                (
+                    [39071] => Array
+                        (
+                            [VALUE] => 676
+                        )
+
+                )
+
+            [589] => Array
+                (
+                    [39072] => Array
+                        (
+                            [VALUE] => test444
+                        )
+
+                )
+
+        )
+
+    [RIGHTS] => Array
+        (
+            [82043] => Array
+                (
+                    [GROUP_CODE] => U801
+                    [DO_CLEAN] => N
+                    [TASK_ID] => 40
+                )
+
+            [82044] => Array
+                (
+                    [GROUP_CODE] => U684
+                    [DO_CLEAN] => N
+                    [TASK_ID] => 40
+                )
+
+            [82045] => Array
+                (
+                    [GROUP_CODE] => U676
+                    [DO_CLEAN] => N
+                    [TASK_ID] => 43
+                )
+
+        )
+
+    [WF] => N
+    [SEARCHABLE_CONTENT] => 1,5
+АЛЕКСАНДР МАЙБОРОДА
+12.07.2018
+
+ПРОГРАММИСТ
+АЛЕКСАНДР МАЙБОРОДА
+TEST444
+    [IBLOCK_SECTION] => Array
+        (
+        )
+
+    [ID] => 13886
+    [IBLOCK_ID] => 124
+    [RESULT] => 1
+)
+
+*****************************************************************
+
+Array
+(
+    [0] => Array
+        (
+            [ID] => 13885
+            [HOURS] => 5
+        )
+
+    [1] => Array
+        (
+            [ID] => 13886
+            [HOURS] => 1,5
+        )
+
+)
+*****************16.07.2018**************************************
+Array
+(
+    [NAME] => 4
+    [MODIFIED_BY] => 676
+    [PROPERTY_VALUES] => Array
+        (
+            [585] => Array
+                (
+                    [39230] => Array
+                        (
+                            [VALUE] => 16.07.2018
+                        )
+
+                )
+
+            [586] => Array
+                (
+                    [39231] => Array
+                        (
+                            [VALUE] => 1736
+                        )
+
+                )
+
+            [587] => 668
+            [588] => Array
+                (
+                    [39228] => Array
+                        (
+                            [VALUE] => 676
+                        )
+
+                )
+
+            [589] => Array
+                (
+                    [39229] => Array
+                        (
+                            [VALUE] => Тест 2
+                        )
+
+                )
+
+            [590] => 
+        )
+
+    [RIGHTS] => Array
+        (
+            [82043] => Array
+                (
+                    [GROUP_CODE] => U801
+                    [DO_CLEAN] => N
+                    [TASK_ID] => 40
+                )
+
+            [82044] => Array
+                (
+                    [GROUP_CODE] => U684
+                    [DO_CLEAN] => N
+                    [TASK_ID] => 40
+                )
+
+            [82045] => Array
+                (
+                    [GROUP_CODE] => U676
+                    [DO_CLEAN] => N
+                    [TASK_ID] => 43
+                )
+
+        )
+
+    [WF] => N
+    [SEARCHABLE_CONTENT] => 4
+АЛЕКСАНДР МАЙБОРОДА
+16.07.2018
+
+ПРОГРАММИСТ
+АЛЕКСАНДР МАЙБОРОДА
+ТЕСТ 2
+    [IBLOCK_SECTION] => Array
+        (
+        )
+
+    [ID] => 13917
+    [IBLOCK_ID] => 124
+    [RESULT] => 1
+)
+
+//////////////////
+17361736
+//////
+1736
+*********
+
+Array
+(
+    [0] => Array
+        (
+            [ID] => 13917
+            [HOURS] => 6
+        )
+
+)
+/////////////////
+
+Array
+(
+    [0] => Array
+        (
+            [ID] => 13917
+            [HOURS] => 2
+            [ROLE] => Программист
+            [EMPLOYEE_ID] => 676
+            [DEAL_ID] => 1736
+        )
+
+)
+****************//////
+
+
+Array
+(
+    [0] => Array
+        (
+            [ID] => 13917
+            [HOURS] => 8
+            [ROLE] => Программист
+            [EMPLOYEE_ID] => 676
+            [DEAL_ID] => 1736
+        )
+
+    [1] => Array
+        (
+            [ID] => 13918
+            [HOURS] => 1
+            [ROLE] => Аналитик
+            [EMPLOYEE_ID] => 676
+            [DEAL_ID] => 1736
+        )
+
+)
+*********
+
+Array
+(
+    [HOURS_PROGR] => 7
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ANALIT] => 1
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ELSE] => 0
+    [TOTAL_PROJECT_HOURS] => 8
+)
+*****
+Array
+(
+    [UF_CRM_1529755353] => 1
+    [UF_CRM_1529754702] => 3
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 2
+    [UF_CRM_1529754702] => 4
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 1
+    [UF_CRM_1529754702] => 0.5
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 1
+    [UF_CRM_1529754702] => 0.5
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 1
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 13
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 1
+    [UF_CRM_1529754702] => 0.5
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 13
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+)
+Array
+(
+    [UF_CRM_1529755353] => 13
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+)
+1736
+Array
+(
+    [HOURS_PROGR] => 10
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ANALIT] => 55
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ELSE] => 0
+    [TOTAL_PROJECT_HOURS] => 65
+)
+Array
+(
+    [HOURS_PROGR] => 22
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ANALIT] => 55
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ELSE] => 0
+    [TOTAL_PROJECT_HOURS] => 77
+)
+Array
+(
+    [HOURS_PROGR] => 22
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ANALIT] => 55
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+        )
+
+    [HOURS_ELSE] => 0
+    [TOTAL_PROJECT_HOURS] => 77
+)
+Array
+(
+    [UF_CRM_1529755353] => 24
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 30
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736
+****************
+Array
+(
+    [UF_CRM_1529755353] => 44
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529754702] => 55
+    [UF_CRM_1529755333] => 0
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529754702] => 25
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529755333] => 0
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736
+-------------------------------------Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529754702] => 25
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529755333] => 4
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529754702] => 33
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529755333] => 4
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529754702] => 33
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529755333] => 54
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529754702] => 83
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 4
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529754702] => 83
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 5
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736Array
+(
+    [UF_CRM_1529755353] => 14
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+        )
+
+    [UF_CRM_1529754702] => 83
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+    [~DATE_MODIFY] => now()
+    [MODIFY_BY_ID] => 676
+    [ACCOUNT_CURRENCY_ID] => UAH
+    [OPPORTUNITY_ACCOUNT] => 0.00
+    [TAX_VALUE_ACCOUNT] => 0
+    [ID] => 1736
+)
+1736
+*****************
+Array
+(
+    [HOURS_PROGR] => 15
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 83
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7
+    [TOTAL_PROJECT_HOURS] => 105
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 15
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 83
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+)
+Array
+(
+    [HOURS_PROGR] => 15
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 60
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7
+    [TOTAL_PROJECT_HOURS] => 82
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 15
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 60
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+)
+Array
+(
+    [HOURS_PROGR] => 15
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 54
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7
+    [TOTAL_PROJECT_HOURS] => 76
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 15
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 54
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+)
+Array
+(
+    [HOURS_PROGR] => 15
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 6
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7
+    [TOTAL_PROJECT_HOURS] => 28
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 15
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 6
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+)
+Array
+(
+    [HOURS_PROGR] => 15
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 6
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 6
+    [TOTAL_PROJECT_HOURS] => 27
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 15
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 6
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 6
+)
+Array
+(
+    [HOURS_PROGR] => 2
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 6
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 6
+    [TOTAL_PROJECT_HOURS] => 14
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 2
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 6
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 6
+)
+****************************************
+
+Array
+(
+    [HOURS_PROGR] => 3
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 6.5
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7
+    [TOTAL_PROJECT_HOURS] => 16.5
+    [DEAL_ID] => 1736
+    [EVALUATION_ID] => 
+)
+Array
+(
+    [UF_CRM_1529755353] => 3
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 6.5
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+    [UF_CRM_1529754546] => 
+)
+Array
+(
+    [HOURS_PROGR] => 3
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 6.5
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7
+    [TOTAL_PROJECT_HOURS] => 16.5
+    [DEAL_ID] => 1736
+    [EVALUATION_ID] => 
+)
+Array
+(
+    [UF_CRM_1529755353] => 3
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 6.5
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+    [UF_CRM_1529754546] => 
+)
+Array
+(
+    [HOURS_PROGR] => 3
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 8.2
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7
+    [EVALUATION_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [TOTAL_PROJECT_HOURS] => 18.2
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 3
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 8.2
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7
+    [UF_CRM_1529754546] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+)
+Array
+(
+    [HOURS_PROGR] => 3
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 8.2
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 7.4
+    [EVALUATION_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [TOTAL_PROJECT_HOURS] => 18.6
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 3
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 8.2
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 7.4
+    [UF_CRM_1531814668] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+)
+Array
+(
+    [HOURS_PROGR] => 3
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 8.2
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 11.4
+    [EVALUATION_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [TOTAL_PROJECT_HOURS] => 22.6
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 3
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 8.2
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 11.4
+    [UF_CRM_1531814668] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+)
+Array
+(
+    [HOURS_PROGR] => 3
+    [PROGERS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [HOURS_ANALIT] => 8.2
+    [ANALITICS_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [HOURS_ELSE] => 11.9
+    [EVALUATION_ID] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [TOTAL_PROJECT_HOURS] => 23.1
+    [DEAL_ID] => 1736
+)
+Array
+(
+    [UF_CRM_1529755353] => 3
+    [UF_CRM_1529753275] => Array
+        (
+            [0] => 676
+            [1] => 676
+        )
+
+    [UF_CRM_1529754702] => 8.2
+    [UF_CRM_1529753120] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+    [UF_CRM_1529755333] => 11.9
+    [UF_CRM_1531814668] => Array
+        (
+            [0] => 676
+            [1] => 676
+            [2] => 684
+        )
+
+)
+**************
+Array
+(
+    [ID] => 1736
+    [~ID] => 1736
+    [UF_CRM_1531814346032] => 1
+    [~UF_CRM_1531814346032] => 1
+    [UF_CRM_1531814359596] => 2
+    [~UF_CRM_1531814359596] => 2
+    [UF_CRM_1531814371410] => 3
+    [~UF_CRM_1531814371410] => 3
+    [UF_CRM_1531814395288] => 44
+    [~UF_CRM_1531814395288] => 44
+    [UF_CRM_1531814407691] => 55
+    [~UF_CRM_1531814407691] => 55
+    [UF_CRM_1529753369] => 17.07.2018
+    [~UF_CRM_1529753369] => 17.07.2018
+    [UF_CRM_1529753439] => 31.07.2018
+    [~UF_CRM_1529753439] => 31.07.2018
+)
+************
+Array
+(
+    [ID] => 1736
+    [~ID] => 1736
+    [UF_CRM_1531814346032] => 1
+    [~UF_CRM_1531814346032] => 1
+    [UF_CRM_1531814359596] => 2
+    [~UF_CRM_1531814359596] => 2
+    [UF_CRM_1531814371410] => 3
+    [~UF_CRM_1531814371410] => 3
+    [UF_CRM_1531814395288] => 44
+    [~UF_CRM_1531814395288] => 44
+    [UF_CRM_1531814407691] => 55
+    [~UF_CRM_1531814407691] => 55
+    [UF_CRM_1529753369] => 17.07.2018
+    [~UF_CRM_1529753369] => 17.07.2018
+    [UF_CRM_1529753439] => 31.07.2018
+    [~UF_CRM_1529753439] => 31.07.2018
+)
+///////////////////////////
+Array
+(
+    [ID] => 1736
+    [~ID] => 1736
+    [UF_CRM_1531814346032] => 175
+    [~UF_CRM_1531814346032] => 175
+    [UF_CRM_1531814359596] => 200
+    [~UF_CRM_1531814359596] => 200
+    [UF_CRM_1531814371410] => 300
+    [~UF_CRM_1531814371410] => 300
+    [UF_CRM_1531814395288] => 44
+    [~UF_CRM_1531814395288] => 44
+    [UF_CRM_1531814407691] => 55
+    [~UF_CRM_1531814407691] => 55
+    [UF_CRM_1529753369] => 17.07.2018
+    [~UF_CRM_1529753369] => 17.07.2018
+    [UF_CRM_1529753439] => 31.07.2018
+    [~UF_CRM_1529753439] => 31.07.2018
+)
+///  
+Array
+(
+    [ID] => 1736
+    [~ID] => 1736
+    [UF_CRM_1531814346032] => 175
+    [~UF_CRM_1531814346032] => 175
+    [UF_CRM_1531814359596] => 200
+    [~UF_CRM_1531814359596] => 200
+    [UF_CRM_1531814371410] => 300
+    [~UF_CRM_1531814371410] => 300
+    [UF_CRM_1531814395288] => 44
+    [~UF_CRM_1531814395288] => 44
+    [UF_CRM_1531814407691] => 55
+    [~UF_CRM_1531814407691] => 55
+    [UF_CRM_1529753369] => 17.07.2018
+    [~UF_CRM_1529753369] => 17.07.2018
+    [UF_CRM_1529753439] => 31.07.2018
+    [~UF_CRM_1529753439] => 31.07.2018
+)
+-8450
+----
+Затраты : 
+
+
+Текущая доходность : 67550
+Потенциальная доходность: 162550
+-30868.052.01
+*--------------------------------
+количество дней на проект: 13
+количество прошедших дней: 19
+количество дней просрочки: 6
+тест без выхов финиш-старт: 10
+тест без выхов текущий - старт: 14 - с текущим днем
+**************
+дней на проект 1 : 10
+дней с момента старта: 15
+дней на проект : 13
