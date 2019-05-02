@@ -1,0 +1,500 @@
+11:08:46 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.daa557c8e6963c2fa25e9ee8e5f2b8d1.1549357726
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 3630
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549357726.0968
+            [finish] => 1549357726.6903
+            [duration] => 0.59353709220886
+            [processing] => 0.20379590988159
+            [date_start] => 2019-02-05T11:08:46+02:00
+            [date_finish] => 2019-02-05T11:08:46+02:00
+        )
+
+)
+
+11:10:16 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.2bb40e0c1704ce7856a73412df39492e.1549357815
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 3625
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549357815.7113
+            [finish] => 1549357816.0236
+            [duration] => 0.31237292289734
+            [processing] => 0.18174910545349
+            [date_start] => 2019-02-05T11:10:15+02:00
+            [date_finish] => 2019-02-05T11:10:16+02:00
+        )
+
+)
+
+11:23:10 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.dd53e564b738781d2727a6e0725270d0.1549358590
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 2929
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549358590.1143
+            [finish] => 1549358590.4071
+            [duration] => 0.2928318977356
+            [processing] => 0.20287489891052
+            [date_start] => 2019-02-05T11:23:10+02:00
+            [date_finish] => 2019-02-05T11:23:10+02:00
+        )
+
+)
+
+11:25:55 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.73ca77f2f831e18c1c97c04b15ebcd5c.1549358754
+            [CRM_CREATED_LEAD] => 12322
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                    [0] => Array
+                        (
+                            [ENTITY_TYPE] => LEAD
+                            [ENTITY_ID] => 12322
+                        )
+
+                )
+
+            [CRM_ENTITY_TYPE] => LEAD
+            [CRM_ENTITY_ID] => 12322
+        )
+
+    [time] => Array
+        (
+            [start] => 1549358754.5529
+            [finish] => 1549358755.125
+            [duration] => 0.57207679748535
+            [processing] => 0.47933077812195
+            [date_start] => 2019-02-05T11:25:54+02:00
+            [date_finish] => 2019-02-05T11:25:55+02:00
+        )
+
+)
+
+11:41:56 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.93710e8181f068057831d3a2956ed16a.1549359716
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 2665
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549359715.6444
+            [finish] => 1549359716.6567
+            [duration] => 1.0122652053833
+            [processing] => 0.65084004402161
+            [date_start] => 2019-02-05T11:41:55+02:00
+            [date_finish] => 2019-02-05T11:41:56+02:00
+        )
+
+)
+
+11:43:03 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.75e28853b67b5417e115efb0df9e0b96.1549359783
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => 
+            [CRM_ENTITY_ID] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549359783.1377
+            [finish] => 1549359783.5198
+            [duration] => 0.3820788860321
+            [processing] => 0.29347705841064
+            [date_start] => 2019-02-05T11:43:03+02:00
+            [date_finish] => 2019-02-05T11:43:03+02:00
+        )
+
+)
+
+11:48:45 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.30a0ee7db9b3a2ef8fe605362bf326f5.1549360125
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 2665
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549360125.2184
+            [finish] => 1549360125.499
+            [duration] => 0.28060483932495
+            [processing] => 0.19352078437805
+            [date_start] => 2019-02-05T11:48:45+02:00
+            [date_finish] => 2019-02-05T11:48:45+02:00
+        )
+
+)
+
+12:45:00 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.2d9babdbc2b3cf5c80643ed313d03312.1549363500
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 3186
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549363500.3304
+            [finish] => 1549363500.8218
+            [duration] => 0.49135303497314
+            [processing] => 0.1635890007019
+            [date_start] => 2019-02-05T12:45:00+02:00
+            [date_finish] => 2019-02-05T12:45:00+02:00
+        )
+
+)
+
+12:46:07 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.7355841e270076d8af71147bdd1366b7.1549363567
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 1684
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549363567.5657
+            [finish] => 1549363567.8219
+            [duration] => 0.2561891078949
+            [processing] => 0.16982293128967
+            [date_start] => 2019-02-05T12:46:07+02:00
+            [date_finish] => 2019-02-05T12:46:07+02:00
+        )
+
+)
+
+12:46:58 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.3b0597014154d82686aaa62b8688101c.1549363618
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => COMPANY
+            [CRM_ENTITY_ID] => 764
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549363618.3661
+            [finish] => 1549363618.6211
+            [duration] => 0.25499820709229
+            [processing] => 0.1687548160553
+            [date_start] => 2019-02-05T12:46:58+02:00
+            [date_finish] => 2019-02-05T12:46:58+02:00
+        )
+
+)
+
+12:48:46 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.36c85cd0578d3610d8e19ffee4d290af.1549363725
+            [CRM_CREATED_LEAD] => 12324
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                    [0] => Array
+                        (
+                            [ENTITY_TYPE] => LEAD
+                            [ENTITY_ID] => 12324
+                        )
+
+                )
+
+            [CRM_ENTITY_TYPE] => LEAD
+            [CRM_ENTITY_ID] => 12324
+        )
+
+    [time] => Array
+        (
+            [start] => 1549363725.2355
+            [finish] => 1549363726.2866
+            [duration] => 1.0511059761047
+            [processing] => 0.9646520614624
+            [date_start] => 2019-02-05T12:48:45+02:00
+            [date_finish] => 2019-02-05T12:48:46+02:00
+        )
+
+)
+
+13:06:16 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.61ec01f582a1675a5a2af7cfff13dba5.1549364776
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => COMPANY
+            [CRM_ENTITY_ID] => 1543
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549364775.8836
+            [finish] => 1549364776.4183
+            [duration] => 0.53470802307129
+            [processing] => 0.21367597579956
+            [date_start] => 2019-02-05T13:06:15+02:00
+            [date_finish] => 2019-02-05T13:06:16+02:00
+        )
+
+)
+
+13:10:38 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.d9819eaeb7a98145f7673aeb8902016f.1549365037
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => COMPANY
+            [CRM_ENTITY_ID] => 1543
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549365037.8377
+            [finish] => 1549365038.1121
+            [duration] => 0.27436900138855
+            [processing] => 0.15230107307434
+            [date_start] => 2019-02-05T13:10:37+02:00
+            [date_finish] => 2019-02-05T13:10:38+02:00
+        )
+
+)
+
+13:11:33 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.631ba5a45e852afca11d01273dbd901b.1549365093
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 2620
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549365093.6372
+            [finish] => 1549365093.8966
+            [duration] => 0.25944209098816
+            [processing] => 0.17370700836182
+            [date_start] => 2019-02-05T13:11:33+02:00
+            [date_finish] => 2019-02-05T13:11:33+02:00
+        )
+
+)
+
+13:39:14 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.f7ed81a0329ad7341994cf518e6fa4d7.1549366753
+            [CRM_CREATED_LEAD] => 12325
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                    [0] => Array
+                        (
+                            [ENTITY_TYPE] => LEAD
+                            [ENTITY_ID] => 12325
+                        )
+
+                )
+
+            [CRM_ENTITY_TYPE] => LEAD
+            [CRM_ENTITY_ID] => 12325
+        )
+
+    [time] => Array
+        (
+            [start] => 1549366753.5903
+            [finish] => 1549366754.3201
+            [duration] => 0.7297420501709
+            [processing] => 0.38491415977478
+            [date_start] => 2019-02-05T13:39:13+02:00
+            [date_finish] => 2019-02-05T13:39:14+02:00
+        )
+
+)
+
+13:44:58 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.cf95ff5c41c23786e449f39ac77da54d.1549367098
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => COMPANY
+            [CRM_ENTITY_ID] => 839
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549367098.2822
+            [finish] => 1549367098.519
+            [duration] => 0.23672699928284
+            [processing] => 0.15016007423401
+            [date_start] => 2019-02-05T13:44:58+02:00
+            [date_finish] => 2019-02-05T13:44:58+02:00
+        )
+
+)
+
+13:45:48 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.e3a5734ddd04330fa8537ecfb36b3d5a.1549367148
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 2157
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549367148.5164
+            [finish] => 1549367148.7521
+            [duration] => 0.23562502861023
+            [processing] => 0.14933109283447
+            [date_start] => 2019-02-05T13:45:48+02:00
+            [date_finish] => 2019-02-05T13:45:48+02:00
+        )
+
+)
+
+14:14:03 Array
+(
+    [result] => Array
+        (
+            [CALL_ID] => externalCall.11b2563ca078e899a8b5ffea62ec64a3.1549368842
+            [CRM_CREATED_LEAD] => 
+            [CRM_CREATED_ENTITIES] => Array
+                (
+                )
+
+            [CRM_ENTITY_TYPE] => CONTACT
+            [CRM_ENTITY_ID] => 2949
+            [LEAD_CREATION_ERROR] => 
+        )
+
+    [time] => Array
+        (
+            [start] => 1549368842.6517
+            [finish] => 1549368843.8284
+            [duration] => 1.176717042923
+            [processing] => 0.83250403404236
+            [date_start] => 2019-02-05T14:14:02+02:00
+            [date_finish] => 2019-02-05T14:14:03+02:00
+        )
+
+)
+

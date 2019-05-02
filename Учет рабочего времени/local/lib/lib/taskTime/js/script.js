@@ -9,9 +9,9 @@ function addCurrentDate(selector) {
     var day, month, curDate;
     if(date.getDate() < 10) day = '0' + date.getDate();
     else day = date.getDate();
-    if(date.getMonth()< 10) month =  '0' + Number(date.getMonth()+1);
-    else day = Number(date.getMonth()+1);
-
+    if(date.getMonth() < 9) month =  '0' + Number(date.getMonth()+1);
+    else month = Number(date.getMonth()+1);
+    
     curDate = day + '.'+ month + '.' + date.getFullYear();
     $(selector).val(curDate); //Текущая дата
     //return curDate;

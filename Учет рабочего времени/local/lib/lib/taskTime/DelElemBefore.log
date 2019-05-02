@@ -1,0 +1,23 @@
+
+Array
+(
+    [0] => 15695
+    [1] => Array
+        (
+            [0] => Array
+                (
+                    [ID] => 15695
+                    [NAME] => 11                            //часы
+                    [PROPERTY_586_VALUE] => 2075            // id сделки
+                    [PROPERTY_586_VALUE_ID] => 49147
+                    [PROPERTY_587_VALUE] => Оценка
+                    [PROPERTY_587_ENUM_ID] => 669           // Роль
+                    [PROPERTY_587_VALUE_ID] => 49148
+                    [PROPERTY_588_VALUE] => 676             // ID сотрудника
+                    [PROPERTY_588_VALUE_ID] => 49149
+                )
+
+        )
+
+)
+

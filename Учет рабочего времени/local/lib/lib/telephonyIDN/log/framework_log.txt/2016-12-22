@@ -1,0 +1,82 @@
+10:08:40 bx_auth(3) without code
+10:08:43 bx_auth(3) with code
+10:08:51 bx_auth(3) reading tokens from file
+10:08:51 bx_auth(3) tokens ready !
+10:09:49 bx_auth(3) reading tokens from file
+10:09:49 bx_auth(3) tokens ready !
+10:26:12 bx_auth(3) reading tokens from file
+10:26:12 bx_auth(3) tokens ready !
+10:27:05 bx_auth(3) reading tokens from file
+10:27:05 bx_auth(3) tokens ready !
+10:28:47 bx_auth(3) reading tokens from file
+10:28:47 bx_auth(3) tokens ready !
+10:28:47 bx_call - invalid_token
+10:28:47 bx_refresh
+10:28:48 tokens file deleted
+10:28:48 bx_auth(3) without code
+10:28:51 bx_auth(3) with code
+10:29:37 bx_auth(3) reading tokens from file
+10:29:37 bx_auth(3) tokens ready !
+10:30:09 bx_auth(3) reading tokens from file
+10:30:09 bx_auth(3) tokens ready !
+10:34:37 bx_auth(3) reading tokens from file
+10:34:37 bx_auth(3) tokens ready !
+10:35:14 bx_auth(3) reading tokens from file
+10:35:14 bx_auth(3) tokens ready !
+10:35:14 bx_call - invalid_token
+10:35:14 bx_refresh
+10:35:15 tokens file deleted
+10:35:15 bx_auth(3) without code
+10:35:15 bx_auth(3) with code
+10:37:18 bx_auth(3) reading tokens from file
+10:37:18 bx_auth(3) tokens ready !
+10:37:18 bx_call - invalid_token
+10:37:18 bx_refresh
+10:37:19 tokens file deleted
+10:37:19 bx_auth(3) without code
+10:37:19 bx_auth(3) with code
+10:37:47 bx_auth(3) reading tokens from file
+10:37:47 bx_auth(3) tokens ready !
+10:37:48 bx_call - invalid_token
+10:37:48 bx_refresh
+10:37:48 tokens file deleted
+10:37:48 bx_auth(3) without code
+10:37:49 bx_auth(3) with code
+10:38:29 bx_auth(3) reading tokens from file
+10:38:29 bx_auth(3) tokens ready !
+10:39:17 bx_auth(3) reading tokens from file
+10:39:17 bx_auth(3) tokens ready !
+10:42:09 bx_auth(3) reading tokens from file
+10:42:09 bx_auth(3) tokens ready !
+10:42:09 bx_call - invalid_token
+10:42:09 bx_refresh
+10:42:10 tokens file deleted
+10:42:10 bx_auth(3) without code
+10:42:10 bx_auth(3) with code
+10:42:20 bx_auth(3) reading tokens from file
+10:42:20 bx_auth(3) tokens ready !
+10:42:31 bx_auth(3) reading tokens from file
+10:42:31 bx_auth(3) tokens ready !
+12:14:46 bx_auth(3) reading tokens from file
+12:14:46 bx_auth(3) tokens ready !
+12:14:50 bx_auth(3) reading tokens from file
+12:14:50 bx_auth(3) tokens ready !
+12:14:51 bx_auth(3) reading tokens from file
+12:14:51 bx_auth(3) tokens ready !
+16:02:14 bx_auth(3) reading tokens from file
+16:02:14 bx_auth(3) tokens ready !
+16:46:04 bx_auth(3) reading tokens from file
+16:46:04 bx_auth(3) tokens ready !
+16:47:20 bx_auth(3) reading tokens from file
+16:47:20 bx_auth(3) tokens ready !
+16:47:22 bx_call - expired_token
+16:47:22 bx_refresh
+16:47:22 tokens file deleted
+16:47:22 bx_auth(3) without code
+16:47:23 bx_auth(3) with code
+16:47:29 bx_auth(3) reading tokens from file
+16:47:29 bx_auth(3) tokens ready !
+16:47:31 bx_auth(3) reading tokens from file
+16:47:31 bx_auth(3) tokens ready !
+16:47:38 bx_auth(3) reading tokens from file
+16:47:38 bx_auth(3) tokens ready !

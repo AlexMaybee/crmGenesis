@@ -1,0 +1,354 @@
+00:00:01 bx_auth(3) without code
+00:00:02 bx_auth(3) with code
+00:29:01 bx_auth(3) without code
+00:29:02 bx_auth(3) with code
+00:58:02 bx_auth(3) without code
+00:58:03 bx_auth(3) with code
+01:00:02 bx_auth(3) without code
+01:00:02 bx_auth(3) with code
+01:29:02 bx_auth(3) without code
+01:29:02 bx_auth(3) with code
+01:58:02 bx_auth(3) without code
+01:58:02 bx_auth(3) with code
+02:00:02 bx_auth(3) without code
+02:00:03 bx_auth(3) with code
+02:29:01 bx_auth(3) without code
+02:29:01 bx_auth(3) with code
+02:58:02 bx_auth(3) without code
+02:58:02 bx_auth(3) with code
+03:00:02 bx_auth(3) without code
+03:00:02 bx_auth(3) with code
+03:29:01 bx_auth(3) without code
+03:29:01 bx_auth(3) with code
+03:58:01 bx_auth(3) without code
+03:58:02 bx_auth(3) with code
+04:00:02 bx_auth(3) without code
+04:00:03 bx_auth(3) with code
+04:29:01 bx_auth(3) without code
+04:29:02 bx_auth(3) with code
+04:58:01 bx_auth(3) without code
+04:58:02 bx_auth(3) with code
+05:00:02 bx_auth(3) without code
+05:00:02 bx_auth(3) with code
+05:29:02 bx_auth(3) without code
+05:29:02 bx_auth(3) with code
+05:58:01 bx_auth(3) without code
+05:58:01 bx_auth(3) with code
+06:00:01 bx_auth(3) without code
+06:00:02 bx_auth(3) with code
+06:29:02 bx_auth(3) without code
+06:29:02 bx_auth(3) with code
+06:58:02 bx_auth(3) without code
+06:58:02 bx_auth(3) with code
+07:00:01 bx_auth(3) without code
+07:00:02 bx_auth(3) with code
+07:29:01 bx_auth(3) without code
+07:29:01 bx_auth(3) with code
+07:58:01 bx_auth(3) without code
+07:58:01 bx_auth(3) with code
+08:00:02 bx_auth(3) without code
+08:00:03 bx_auth(3) with code
+08:29:01 bx_auth(3) without code
+08:29:02 bx_auth(3) with code
+08:58:01 bx_auth(3) without code
+08:58:02 bx_auth(3) with code
+09:00:02 bx_auth(3) without code
+09:00:03 bx_auth(3) with code
+09:29:01 bx_auth(3) without code
+09:29:02 bx_auth(3) with code
+09:58:01 bx_auth(3) without code
+09:58:01 bx_auth(3) with code
+10:00:02 bx_auth(3) without code
+10:00:02 bx_auth(3) with code
+10:29:01 bx_auth(3) without code
+10:29:02 bx_auth(3) with code
+10:58:01 bx_auth(3) without code
+10:58:01 bx_auth(3) with code
+11:00:02 bx_auth(3) without code
+11:00:02 bx_auth(3) with code
+11:08:45 bx_auth(3) reading tokens from file
+11:08:45 bx_auth(3) tokens ready !
+11:09:56 bx_auth(3) reading tokens from file
+11:09:56 bx_auth(3) tokens ready !
+11:10:15 bx_auth(3) reading tokens from file
+11:10:15 bx_auth(3) tokens ready !
+11:11:46 bx_auth(3) reading tokens from file
+11:11:46 bx_auth(3) tokens ready !
+11:23:09 bx_auth(3) reading tokens from file
+11:23:09 bx_auth(3) tokens ready !
+11:25:36 bx_auth(3) reading tokens from file
+11:25:36 bx_auth(3) tokens ready !
+11:25:54 bx_auth(3) reading tokens from file
+11:25:54 bx_auth(3) tokens ready !
+11:28:55 bx_auth(3) reading tokens from file
+11:28:55 bx_auth(3) tokens ready !
+11:29:01 bx_auth(3) without code
+11:29:01 bx_auth(3) with code
+11:41:55 bx_auth(3) reading tokens from file
+11:41:55 bx_auth(3) tokens ready !
+11:42:44 bx_auth(3) reading tokens from file
+11:42:44 bx_auth(3) tokens ready !
+11:43:02 bx_auth(3) reading tokens from file
+11:43:02 bx_auth(3) tokens ready !
+11:43:06 bx_auth(3) reading tokens from file
+11:43:06 bx_auth(3) tokens ready !
+11:43:35 bx_auth(3) reading tokens from file
+11:43:35 bx_auth(3) tokens ready !
+11:43:43 bx_auth(3) reading tokens from file
+11:43:44 bx_auth(3) tokens ready !
+11:43:44 bx_auth(3) reading tokens from file
+11:43:44 bx_auth(3) tokens ready !
+11:43:45 bx_auth(3) reading tokens from file
+11:43:45 bx_auth(3) tokens ready !
+11:43:45 bx_auth(3) reading tokens from file
+11:43:45 bx_auth(3) tokens ready !
+11:43:45 bx_auth(3) reading tokens from file
+11:43:45 bx_auth(3) tokens ready !
+11:43:46 bx_auth(3) reading tokens from file
+11:43:46 bx_auth(3) tokens ready !
+11:43:47 bx_auth(3) reading tokens from file
+11:43:47 bx_auth(3) tokens ready !
+11:43:48 bx_auth(3) reading tokens from file
+11:43:48 bx_auth(3) tokens ready !
+11:43:52 bx_auth(3) reading tokens from file
+11:43:52 bx_auth(3) tokens ready !
+11:43:52 bx_auth(3) reading tokens from file
+11:43:52 bx_auth(3) tokens ready !
+11:43:53 bx_auth(3) reading tokens from file
+11:43:53 bx_auth(3) tokens ready !
+11:43:53 bx_auth(3) reading tokens from file
+11:43:53 bx_auth(3) tokens ready !
+11:43:53 bx_auth(3) reading tokens from file
+11:43:53 bx_auth(3) tokens ready !
+11:44:20 bx_auth(3) reading tokens from file
+11:44:20 bx_auth(3) tokens ready !
+11:44:26 bx_auth(3) reading tokens from file
+11:44:26 bx_auth(3) tokens ready !
+11:44:27 bx_auth(3) reading tokens from file
+11:44:27 bx_auth(3) tokens ready !
+11:44:27 bx_auth(3) reading tokens from file
+11:44:27 bx_auth(3) tokens ready !
+11:44:28 bx_auth(3) reading tokens from file
+11:44:28 bx_auth(3) tokens ready !
+11:44:28 bx_auth(3) reading tokens from file
+11:44:28 bx_auth(3) tokens ready !
+11:44:28 bx_auth(3) reading tokens from file
+11:44:28 bx_auth(3) tokens ready !
+11:44:29 bx_auth(3) reading tokens from file
+11:44:29 bx_auth(3) tokens ready !
+11:44:29 bx_auth(3) reading tokens from file
+11:44:29 bx_auth(3) tokens ready !
+11:44:33 bx_auth(3) reading tokens from file
+11:44:33 bx_auth(3) tokens ready !
+11:44:33 bx_auth(3) reading tokens from file
+11:44:33 bx_auth(3) tokens ready !
+11:44:33 bx_auth(3) reading tokens from file
+11:44:33 bx_auth(3) tokens ready !
+11:44:45 bx_auth(3) reading tokens from file
+11:44:45 bx_auth(3) tokens ready !
+11:48:45 bx_auth(3) reading tokens from file
+11:48:45 bx_auth(3) tokens ready !
+11:49:18 bx_auth(3) reading tokens from file
+11:49:18 bx_auth(3) tokens ready !
+11:58:02 bx_auth(3) without code
+11:58:02 bx_auth(3) with code
+12:00:02 bx_auth(3) without code
+12:00:02 bx_auth(3) with code
+12:29:01 bx_auth(3) without code
+12:29:01 bx_auth(3) with code
+12:45:00 bx_auth(3) reading tokens from file
+12:45:00 bx_auth(3) tokens ready !
+12:45:51 bx_auth(3) reading tokens from file
+12:45:51 bx_auth(3) tokens ready !
+12:46:07 bx_auth(3) reading tokens from file
+12:46:07 bx_auth(3) tokens ready !
+12:46:39 bx_auth(3) reading tokens from file
+12:46:39 bx_auth(3) tokens ready !
+12:46:54 bx_auth(3) reading tokens from file
+12:46:54 bx_auth(3) tokens ready !
+12:46:58 bx_auth(3) reading tokens from file
+12:46:58 bx_auth(3) tokens ready !
+12:47:01 bx_auth(3) reading tokens from file
+12:47:01 bx_auth(3) tokens ready !
+12:47:02 bx_auth(3) reading tokens from file
+12:47:02 bx_auth(3) tokens ready !
+12:47:02 bx_auth(3) reading tokens from file
+12:47:02 bx_auth(3) tokens ready !
+12:47:02 bx_auth(3) reading tokens from file
+12:47:02 bx_auth(3) tokens ready !
+12:47:03 bx_auth(3) reading tokens from file
+12:47:03 bx_auth(3) tokens ready !
+12:47:03 bx_auth(3) reading tokens from file
+12:47:03 bx_auth(3) tokens ready !
+12:47:15 bx_auth(3) reading tokens from file
+12:47:15 bx_auth(3) tokens ready !
+12:47:15 bx_auth(3) reading tokens from file
+12:47:15 bx_auth(3) tokens ready !
+12:47:16 bx_auth(3) reading tokens from file
+12:47:16 bx_auth(3) tokens ready !
+12:47:16 bx_auth(3) reading tokens from file
+12:47:16 bx_auth(3) tokens ready !
+12:48:38 bx_auth(3) reading tokens from file
+12:48:38 bx_auth(3) tokens ready !
+12:48:45 bx_auth(3) reading tokens from file
+12:48:45 bx_auth(3) tokens ready !
+12:52:17 bx_auth(3) reading tokens from file
+12:52:17 bx_auth(3) tokens ready !
+12:56:25 bx_auth(3) reading tokens from file
+12:56:25 bx_auth(3) tokens ready !
+12:56:32 bx_auth(3) reading tokens from file
+12:56:32 bx_auth(3) tokens ready !
+12:56:32 bx_auth(3) reading tokens from file
+12:56:32 bx_auth(3) tokens ready !
+12:56:33 bx_auth(3) reading tokens from file
+12:56:33 bx_auth(3) tokens ready !
+12:56:33 bx_auth(3) reading tokens from file
+12:56:33 bx_auth(3) tokens ready !
+12:56:33 bx_auth(3) reading tokens from file
+12:56:33 bx_auth(3) tokens ready !
+12:56:34 bx_auth(3) reading tokens from file
+12:56:34 bx_auth(3) tokens ready !
+12:56:34 bx_auth(3) reading tokens from file
+12:56:34 bx_auth(3) tokens ready !
+12:56:35 bx_auth(3) reading tokens from file
+12:56:35 bx_auth(3) tokens ready !
+12:56:39 bx_auth(3) reading tokens from file
+12:56:39 bx_auth(3) tokens ready !
+12:56:39 bx_auth(3) reading tokens from file
+12:56:39 bx_auth(3) tokens ready !
+12:56:39 bx_auth(3) reading tokens from file
+12:56:39 bx_auth(3) tokens ready !
+12:56:50 bx_auth(3) reading tokens from file
+12:56:50 bx_auth(3) tokens ready !
+12:57:15 bx_auth(3) reading tokens from file
+12:57:15 bx_auth(3) tokens ready !
+12:57:20 bx_auth(3) reading tokens from file
+12:57:20 bx_auth(3) tokens ready !
+12:58:01 bx_auth(3) without code
+12:58:01 bx_auth(3) with code
+13:00:01 bx_auth(3) without code
+13:00:02 bx_auth(3) with code
+13:06:15 bx_auth(3) reading tokens from file
+13:06:15 bx_auth(3) tokens ready !
+13:07:26 bx_auth(3) reading tokens from file
+13:07:26 bx_auth(3) tokens ready !
+13:10:37 bx_auth(3) reading tokens from file
+13:10:37 bx_auth(3) tokens ready !
+13:11:08 bx_auth(3) reading tokens from file
+13:11:08 bx_auth(3) tokens ready !
+13:11:33 bx_auth(3) reading tokens from file
+13:11:33 bx_auth(3) tokens ready !
+13:12:50 bx_auth(3) reading tokens from file
+13:12:50 bx_auth(3) tokens ready !
+13:29:01 bx_auth(3) without code
+13:29:02 bx_auth(3) with code
+13:39:13 bx_auth(3) reading tokens from file
+13:39:13 bx_auth(3) tokens ready !
+13:40:39 bx_auth(3) reading tokens from file
+13:40:39 bx_auth(3) tokens ready !
+13:44:58 bx_auth(3) reading tokens from file
+13:44:58 bx_auth(3) tokens ready !
+13:45:42 bx_auth(3) reading tokens from file
+13:45:42 bx_auth(3) tokens ready !
+13:45:48 bx_auth(3) reading tokens from file
+13:45:48 bx_auth(3) tokens ready !
+13:47:08 bx_auth(3) reading tokens from file
+13:47:08 bx_auth(3) tokens ready !
+13:58:01 bx_auth(3) without code
+13:58:02 bx_auth(3) with code
+14:00:02 bx_auth(3) without code
+14:00:02 bx_auth(3) with code
+14:14:02 bx_auth(3) reading tokens from file
+14:14:02 bx_auth(3) tokens ready !
+14:15:56 bx_auth(3) reading tokens from file
+14:15:56 bx_auth(3) tokens ready !
+14:29:01 bx_auth(3) without code
+14:29:01 bx_auth(3) with code
+14:42:41 bx_auth(3) reading tokens from file
+14:42:41 bx_auth(3) tokens ready !
+14:42:50 bx_auth(3) reading tokens from file
+14:42:50 bx_auth(3) tokens ready !
+14:42:50 bx_auth(3) reading tokens from file
+14:42:50 bx_auth(3) tokens ready !
+14:42:51 bx_auth(3) reading tokens from file
+14:42:51 bx_auth(3) tokens ready !
+14:42:51 bx_auth(3) reading tokens from file
+14:42:51 bx_auth(3) tokens ready !
+14:42:51 bx_auth(3) reading tokens from file
+14:42:51 bx_auth(3) tokens ready !
+14:42:52 bx_auth(3) reading tokens from file
+14:42:52 bx_auth(3) tokens ready !
+14:42:52 bx_auth(3) reading tokens from file
+14:42:52 bx_auth(3) tokens ready !
+14:42:52 bx_auth(3) reading tokens from file
+14:42:52 bx_auth(3) tokens ready !
+14:42:52 bx_auth(3) reading tokens from file
+14:42:52 bx_auth(3) tokens ready !
+14:42:53 bx_auth(3) reading tokens from file
+14:42:53 bx_auth(3) tokens ready !
+14:42:53 bx_auth(3) reading tokens from file
+14:42:53 bx_auth(3) tokens ready !
+14:42:54 bx_auth(3) reading tokens from file
+14:42:54 bx_auth(3) tokens ready !
+14:42:54 bx_auth(3) reading tokens from file
+14:42:54 bx_auth(3) tokens ready !
+14:58:03 bx_auth(3) without code
+14:58:03 bx_auth(3) with code
+15:00:01 bx_auth(3) without code
+15:00:02 bx_auth(3) with code
+15:22:08 bx_auth(3) reading tokens from file
+15:22:08 bx_auth(3) tokens ready !
+15:22:10 bx_auth(3) reading tokens from file
+15:22:10 bx_auth(3) tokens ready !
+15:29:01 bx_auth(3) without code
+15:29:02 bx_auth(3) with code
+15:58:01 bx_auth(3) without code
+15:58:02 bx_auth(3) with code
+16:00:02 bx_auth(3) without code
+16:00:02 bx_auth(3) with code
+16:29:02 bx_auth(3) without code
+16:29:02 bx_auth(3) with code
+16:58:01 bx_auth(3) without code
+16:58:02 bx_auth(3) with code
+17:00:01 bx_auth(3) without code
+17:00:02 bx_auth(3) with code
+17:29:01 bx_auth(3) without code
+17:29:02 bx_auth(3) with code
+17:58:01 bx_auth(3) without code
+17:58:02 bx_auth(3) with code
+18:00:02 bx_auth(3) without code
+18:00:02 bx_auth(3) with code
+18:29:01 bx_auth(3) without code
+18:29:01 bx_auth(3) with code
+18:58:01 bx_auth(3) without code
+18:58:01 bx_auth(3) with code
+19:00:01 bx_auth(3) without code
+19:00:02 bx_auth(3) with code
+19:29:01 bx_auth(3) without code
+19:29:01 bx_auth(3) with code
+19:58:01 bx_auth(3) without code
+19:58:02 bx_auth(3) with code
+20:00:01 bx_auth(3) without code
+20:00:02 bx_auth(3) with code
+20:29:01 bx_auth(3) without code
+20:29:02 bx_auth(3) with code
+20:58:01 bx_auth(3) without code
+20:58:02 bx_auth(3) with code
+21:00:02 bx_auth(3) without code
+21:00:02 bx_auth(3) with code
+21:29:02 bx_auth(3) without code
+21:29:02 bx_auth(3) with code
+21:58:01 bx_auth(3) without code
+21:58:01 bx_auth(3) with code
+22:00:02 bx_auth(3) without code
+22:00:02 bx_auth(3) with code
+22:29:01 bx_auth(3) without code
+22:29:01 bx_auth(3) with code
+22:58:01 bx_auth(3) without code
+22:58:01 bx_auth(3) with code
+23:00:02 bx_auth(3) without code
+23:00:02 bx_auth(3) with code
+23:29:01 bx_auth(3) without code
+23:29:02 bx_auth(3) with code
+23:58:01 bx_auth(3) without code
+23:58:01 bx_auth(3) with code
