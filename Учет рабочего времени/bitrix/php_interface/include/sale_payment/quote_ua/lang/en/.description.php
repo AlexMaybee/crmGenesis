@@ -1,6 +1,4 @@
 <?
-global $MESS;
-
 $MESS["SBLP_DTITLE"] = "Quote (Ukrainian)";
 $MESS["SBLP_DDESCR"] = "Quote for printing. Will open in a new window.";
 

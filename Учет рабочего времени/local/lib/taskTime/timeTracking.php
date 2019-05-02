@@ -1,5 +1,25 @@
 <?php
 
+//26.04.2019 кнопка списания в задаче + попап
+/*Подключение файла .js с кодом заполнения элемента списка карты клиента!*/
+$arJsConfig = array(
+    'addTaskTimeButtonToTask' => array(
+        'js' => '/local/lib/taskTime/js/add_button_popup_to_task_page.js',
+        'css' => '/local/lib/taskTime/css/custom_my.css',
+    )
+);
+
+foreach ($arJsConfig as $ext => $arExt) {
+    \CJSCore::RegisterExt($ext, $arExt);
+}
+
+//Вызов библиотеки
+CUtil::InitJSCore(array('addTaskTimeButtonToTask'));
+
+CJSCore::Init(array("jquery"));
+
+
+
 /*для учета затрат*/
 
 //Заполнение полей Дата, id сотрудника при создании элемента юлока 124 (ует времени) из сделки
@@ -12,6 +32,8 @@ function changeMyContent()
 
 
     if(preg_match($pattern,$req_str)) {
+
+        CJSCore::Init(array("jquery")); // Это проблемное место!!!!
 
         global $APPLICATION;
         $APPLICATION->SetAdditionalCSS("/local/lib/taskTime/css/style.css");
@@ -183,7 +205,7 @@ function getIBdata(&$arFields){
 
                         if(!in_array($field['EMPLOYEE_ID'],$dealData['UF_CRM_1529753120']))
                             array_push($fields['ANALITICS_ID'], $field['EMPLOYEE_ID']); //массив Id прогеров
-                        else $fields['PROGERS_ID'] = $dealData['UF_CRM_1529753120'];
+                        else $fields['ANALITICS_ID'] = $dealData['UF_CRM_1529753120'];
                     }
                     if ($field['ROLE'] == 'Программист') {
                         $fields['HOURS_PROGR'] += $field['HOURS'];//считаем кол-во часов прогеров
@@ -197,7 +219,7 @@ function getIBdata(&$arFields){
 
                         if(!in_array($field['EMPLOYEE_ID'],$dealData['UF_CRM_1531814668']))
                             array_push($fields['EVALUATION_ID'], $field['EMPLOYEE_ID']); //массив Id прогеров
-                        else $fields['PROGERS_ID'] = $dealData['UF_CRM_1531814668'];
+                        else $fields['EVALUATION_ID'] = $dealData['UF_CRM_1531814668'];
                     }
                     $fields['TOTAL_PROJECT_HOURS'] += $field['HOURS'];
                     $fields['DEAL_ID'] = $field['DEAL_ID'];

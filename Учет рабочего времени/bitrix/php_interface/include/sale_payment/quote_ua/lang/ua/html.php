@@ -1,6 +1,4 @@
 <?
-global $MESS;
-
 $MESS["SBLP_Q_UA_TEXT_HEADER"] = "Комерційна пропозиція";
 $MESS["SBLP_Q_UA_TEXT_PHONE_SHORT"] = "Тел.";
 $MESS["SBLP_Q_UA_TEXT_QUOTE"] = "КОМЕРЦІЙНА ПРОПОЗИЦІЯ";

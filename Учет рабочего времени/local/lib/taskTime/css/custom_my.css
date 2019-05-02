@@ -1,0 +1,15 @@
+.required{
+    color: red!important;
+    font-weight: bolder!important;
+}
+
+/*стиль попапа из задачи*/
+#FormAddTaskTimeElem select, #FormAddTaskTimeElem input {
+    height: 29px;
+}
+#FormAddTaskTimeElem select, #FormAddTaskTimeElem input, #FormAddTaskTimeElem textarea{
+    width: 50%;
+}
+#FormAddTaskTimeElem .crm-entity-widget-content-block{
+    margin: 10px 0;
+}

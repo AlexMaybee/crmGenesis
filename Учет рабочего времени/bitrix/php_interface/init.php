@@ -1,10 +1,11 @@
 <?php
 use Bitrix\Main\Page\Asset,
     Bitrix\Main\Application;
+    
 
 define("HL_DEAL_PRODUCT_LINK", 3);
 
-CJSCore::Init(array("jquery"));
+//CJSCore::Init(array("jquery")); // Это проблемное место!!!!
 
 /*function custom_mail($to,$subject,$body,$headers) {
     $f=fopen($_SERVER["DOCUMENT_ROOT"]."/maillog.txt", "a+");
