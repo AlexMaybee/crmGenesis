@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#company-user-plan-block{
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*табы*/
+.tabs{
+    list-style-type: none;
+    margin-left: 1em;
+  /*  border-bottom: 2px solid #0e3f82;*/
+}
+.tabs li{
+    display: inline-block;
+    border: 2px solid #0e3f82;
+    border-bottom: none;
+    padding: 10px;
+    background-color: #0e3f82;
+
+    color: #fff;
+}
+.tabs li input {
+    display: none;
+}
+
+.active-tab{
+    background-color: #ccffcc!important;
+    color: #000!important;
+
+}
+.tab-content {
+    display: none;
+}
+.active-tab-content{
+    display: block!important;
+}
+
+/*табы*/
+
+
+
+
+
+section{
+    background-color: #ccffcc;
+    padding: 0 1em;
+}
+
+
+/*стрелки переключения месяца*/
+
+.arrows_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.previous_month,.next_month{
+    width: 150px;
+    text-align: center;
+    background-color: #0e3f82;
+    color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #0e3f82;
+    transition: border 0.5s, background-color 2s, margin 2s;
+}
+.previous_month:hover{
+    margin-left: -20px;
+    border-color: #fff;
+    background-color: #2da31d;
+}
+.next_month:hover{
+    margin-right: -20px;
+    border-color: #fff;
+    background-color: #C5060B;
+}
+/*стрелки переключения месяца*/
+
+.title{
+    text-align: center;
+    padding: 10px 0;
+}
+.date{
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #0e3f82;
+}
+
+/*Обертка*/
+.block-wrapper{
+    background-color: #ffc2b3;
+    margin: 10px auto;
+    padding: 10px 0;
+
+}
+.block-wrapper:hover{
+    background-color: #fff8dc;
+    color: #000000;
+    transition: background-color 0.5s, color 0.5s ;
+}
+.block-wrapper:hover a{
+    color: #000000;
+    transition: background-color 0.5s, color 0.5s ;
+}
+
+.block-main, .block-sub-elem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*.block-wrapper > div{*/
+.block-main > div{
+    padding: 20px;
+    margin: 0 10px;
+}
+.block-sub-elem > div{
+    padding: 10px 30px;
+    margin: 0 10px;
+}
+
+
+.company{
+    background-color: #1b6d85;
+    color: #fff;
+    margin: 2em auto;
+}
+.analitics{
+    background-color: #852a80;
+    color: #fff;
+}
+.proggers{
+    background-color: #2d4667;
+    color: #fff;
+}
+.invoices{
+    background-color: #560404;/*#5a0404;*/
+    color: #fff;
+}
+.deals-in-work{
+    background-color: #0d2b09;
+    color: #fff;
+
+}
+.status{
+    color:#ff0000;
+}
+/*Обертка*/
+
+.error{
+    color: #ff0000;
+    text-align: center;
+}
+
+/*01.03.2019 flex-css*/
+
+.block-sub-2, .block-list-elements{
+    padding: 0 3em;
+}
+
+.block-progress{
+    flex-grow: 2;
+}
+
+.block-title{
+    width: 20%;
+}
+
+.block-title-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   /* width: 300px;*/
+}
+
+
+
+/*01.03.2019 flex-css*/
+
+
+
+/*Блок с фото и инфо о юзере*/
+
+.photo, .info{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+    padding-left: 30px;
+}
+
+.photo img, .deal-title img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.block-sub-elem .photo img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*данные пользователя*/
+.user_name{
+    font-weight: 800;
+}
+.user_name a, .invoice-info a, .deals-in-work a {
+    color: #fff;
+    text-decoration: none;
+}
+.user_name a:hover {
+    color: #000;
+}
+
+.company .user_name{
+    font-size: 1.5em;
+}
+.company .block-sub-elem .user_name{
+    font-size: 1em;
+}
+.company .block-title-flex{
+    justify-content: center;
+}
+
+
+/*прогрессбар
+*/
+.progress-outer{
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: lightgrey;
+    height: 35px;
+    border: 2px solid dimgrey;
+    border-radius: 5px;
+    line-height: 35px;
+}
+.progress-width{
+    background-color: #0aa2ff;
+    text-align: center;
+}
+.progress-width-start{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 3px groove #0b66c3;
+}
+/*это значение пг по зценьтру, если 0%*/
+.progress-inner-zero{
+    position: absolute;
+    width:70px;
+    text-align: center;
+    height:35px;
+    left: 48%;
+    right: 50%;
+}
+
+/*прогрессбар*/
+
+/*план/факт*/
+.block-numbers-flex{
+    display: flex;
+    justify-content: center;
+}
+.block-numbers{
+    width: 15%;
+}
+/*план/факт*/
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+/*блок счетов, вкладка 2*/
+
+.block-list-wrapper{
+    padding: 0 20px;
+}
+.inline-block{
+    list-style-type: none;
+}
+.invoice-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.invoice-info div{
+    margin: 0 10px;
+}
+/*.inline-block li div {*/
+    /*display: inline-block;*/
+/*}*/
+.inline-block li img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*блок сделки в работе вкладка 4*/
+.block-deal-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.deal-title div{
+    display: inline-block;
+}
+
+.deal_main_block{
+    padding: 30px;
+}
+.block-deal-progress{
+    padding: 0 20px;
+}
+.deal_sub_block{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+}
+.deal_sub_block .photo img{
+    width: 40px;
+    height: 40px;
+}
+.photo-collection img{
+    margin: -12px;
+}
+/*Анимация vue*/
+
+/*анимация прогресс-бара*/
+
+
+/*Появление доп. статистики по направлениям сделок*/
+.subStatistics-enter-active, .subStatistics-leave-active{
+    transition: all 1s;
+}
+.subStatistics-enter, .subStatistics-leave-to{
+    transform: translateY(-30px); /*скользит сверху вниз*/
+    opacity: 0;
+}

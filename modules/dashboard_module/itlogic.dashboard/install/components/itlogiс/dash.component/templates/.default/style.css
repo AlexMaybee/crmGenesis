@@ -1,0 +1,273 @@
+
+/*Шрифт для всего!*/
+.dashboard_container {
+    font: normal small-caps bold 15px Roboto, Arial, sans-serif;
+    /*font-family: 'Indie Flower', cursive;
+    font: normal small-caps bold 18px;*/
+    /*height: 500px;
+    overflow-y: scroll;*/
+}
+.dashboard_container .title {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 1em;
+}
+
+
+/*ERROR EMPTY ANALITICS DATA*/
+.error_emty_data{
+    width: 50%;
+    background-color: #fff;
+    margin: 2em auto;
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid darkred;
+    border-radius: 2px;
+}
+/*ERROR EMPTY ANALITICS DATA*/
+
+
+/*progressbar main + users*/
+.progress_bar_block{
+    margin: 1em;
+    background-color: #fff;
+}
+.integrators_progressbar_visible, .main_progressbar_visible{
+   /* margin: 1em;
+    background-color: #fff;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*.progress_bar_block:hover{*/
+.integrators_progressbar_visible:hover {
+    background-color: cornsilk;
+}
+
+.progress_bar_block > div:not:nth-child(1){
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+.progress_title{
+    width: 20%;
+    margin: 5px;
+}
+.progress_bar_wrapper{
+    width: 60%;
+    border: 1px solid #cbd0d2e3;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 5px;
+}
+.progress_bar_plan{
+    width: 25%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+
+
+/* делаем элемент бутстрапа relarive, чтобы сделать в нем засечки == кол-ву дней в месяце*/
+.progress{
+    position: relative;
+}
+
+/*позиционируем блок, чтобы накладывался четко на прогрессбар с процентами и даже заполнял весь родительский блок*/
+.progress-days-absolute{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    height: 29px;
+    background-color: transparent;
+    /*opacity: 0.5;*/
+}
+/*даем белый цвет шрифту и скрываем*/
+.progress_day_of_month{
+    visibility: hidden;
+    color: #fff;
+}
+
+
+
+
+.progress_bar_inner_border, .projects_progressbar_inner_border{
+    border: 1px solid #32bcff;
+    border-radius: 5px;
+    background-color: #abd7f16b;
+}
+.progress_bar_inner, .projects_progressbar_inner1 ,.projects_progressbar_inner2{
+    background-color: #32bcff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: right;
+    padding-right: 0.5em;
+    line-height: 2;
+    border-right: 2px outset #32bcff;
+}
+
+.progress_title_image_wrapper, .progress_title_data_wrapper{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.progress_title_image_wrapper{
+ /*   padding-left: 3em;*/
+    text-align: center;
+}
+.progress_title_data_wrapper{
+    margin-left: 5px;
+}
+.progress_title_data_wrapper > .employee_position, .progress_title_data_wrapper > .employee_hours_works{
+    font-size: smaller;
+    font-weight: 600;
+    color: #6f6060;
+    margin-top: 5px;
+    max-width: 170px;
+}
+
+.progress_bar_block img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*progressbar main + users*/
+
+/*progressbar projects in realization 23.10.2018*/
+.projects_progressbar_block {
+    margin: 1em;
+    background-color: #fff;
+}
+
+/*иконка ответственного за сделку*/
+.projects_progressbar_assigned_by_img_wrapper img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5px;
+}
+/*иконка ответственного за сделку*/
+
+.projects_progressbar_title_wrapper,.bills_title_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.bills_title_wrapper{
+    padding: 0 20px;
+    justify-content: flex-start;
+}
+.bills_title_wrapper ul{
+    list-style-type: none;
+}
+.bills_title_wrapper .projects_progressbar_title_value {
+    margin: 0 10px;
+}
+.bills_title_wrapper .invoice_status{
+    color: red;
+}
+div.projects_progressbar_title_value{
+    max-width: 70%;
+}
+.projects_progressbar_title_value > div{
+    display: inline-block;
+}
+.projects_progressbar_visible, .integrators_progressbar_visible {
+    padding: 1em;
+}
+.projects_progressbar_hidden, .integrators_progressbar_hidden {
+    padding: 0em 2em 1em 2em;
+    /*display: none;*/
+}
+.projects_progressbar_hidden_analitics, .projects_progressbar_hidden_programmers, .projects_progressbar_hidden_ocenka, .category_deal_progressbar_hidden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+}
+
+/*Высота прогрессбара бутстрап 4 = 36рх*/
+.projects_progressbar_visible .progress, .projects_progressbar_hidden .progress, .plan_fact .progress {
+    height: 30px;
+    border: 1px solid #32bcff;
+    padding: 5px;
+}
+
+.projects_progressbar_hidden .projects_progressbar_hidden_title, .category_deal_progressbar_hidden .category_deal_progressbar_hidden_title{
+    width: 12%;
+}
+.projects_progressbar_hidden .progress, .category_deal_progressbar_hidden .progress{
+    width: 70%;
+}
+.projects_progressbar_hidden .projets_progressbar_hidden_data, .category_deal_progressbar_hidden .category_deal_progressbar_hidden_data{
+    width: 15%;
+}
+
+
+.projects_progressbar_otdel, .projects_progressbar_employees {
+    display: inline-block;
+    margin-left:2px;
+}
+.projects_progressbar_otdel {
+    min-width: 86px;
+}
+.projects_progressbar_hidden_title img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*progressbar projects in realization*/
+
+
+.title span {
+    color: red;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/*БЛОК "План-факт*/
+.plan_fact {
+    width: 100%;
+    min-height: 400px;
+    background-color: #d0e8ff;
+    padding: 1em 0;
+    /*  display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;*/
+}
+.plan_fact > .title{
+    /*font-family: Roboto, Arial, sans-serif;*/
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+}
+
+.title_main{
+    font-variant: additional-ligatures;
+    font-size: 1.8em;
+    font-weight: 800;
+    color: darkblue;
+}
+
+.integrators_block, .projects_in_work{
+    margin-top: 3em;
+}
+
+
+/*БЛОК "Проекты в работе"*/
+
+.projects_in_work {
+    background-color: #bceab6;
+    padding: 1em 0;
+}
