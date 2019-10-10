@@ -1,0 +1,43 @@
+
+#taskTimeAtWorkPanel label{
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#taskTimeAtWorkPanel input, #taskTimeAtWorkPanel select, #taskTimeAtWorkPanel textarea{
+    /*padding: 0 7px;*/
+    border: 1px solid #c6cdd3;
+    border-radius: 2px;
+    height: 36px;
+    width: 355px!important;
+}
+#taskTimeAtWorkPanel .required {
+    color: red;
+}
+#taskTimeAtWorkPanel .myPanelError, #timeman_main .my-workday-error {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    margin: 5px 0;
+}
+
+#timeman_main .my-workday-error{
+    font-size: larger;
+}
+
+#taskTimeAtWorkPanel ul {
+    list-style-type: none;
+}
+#taskTimeAtWorkPanel ul li{
+    text-align: left;
+    cursor: pointer;
+    margin: 3px 0;
+    color: #137bfb;
+}
+
+#taskTimeAtWorkPanel ul li:hover{
+    color: #a51630;
+}
