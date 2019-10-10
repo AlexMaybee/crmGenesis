@@ -85,7 +85,8 @@ class WorkPanelControl{
             allTabs = $('#popup-window-content-timeman_main .tm-tab'),
             allTabsContent = $('#popup-window-content-timeman_main .tm-tab-content'),
             fieldForForm = '', //переменная с разметкой полей
-            required = '', //переменная с разметкой полей
+            required = '', //свойство
+            requiredField = '', //красная звездочка - єлемент
             options = '<option value="">Не выбрано</option>', //для множ. значений
             self = this; //иначе не получится вызвать нужный метод класса;
 
@@ -102,6 +103,14 @@ class WorkPanelControl{
                     if(field.CODE == 'SOTRUDNIK') return;
 
                     (field.IS_REQUIRED == 'Y') ? required = 'required' : required = '';
+                    if(field.IS_REQUIRED == 'Y') {
+                        requiredField = '<span class="required">*</span>';
+                        required = 'required';
+                    }
+                    else{
+                        requiredField = '';
+                        required = '';
+                    }
 
                     //если множ., то выводим в селект
                     if(field.PROPERTY_TYPE == 'L'){
@@ -110,7 +119,7 @@ class WorkPanelControl{
                         });
 
                         fieldForForm += '<div class="tm-popup-task-form">' +
-                            '<label for="' + field.CODE + '">' + field.NAME + '</label>' +
+                            '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
                             '<select ' +
                             'id="' + field.CODE + '" ' +
                             'name="' + field.CODE + '" ' +
@@ -124,7 +133,7 @@ class WorkPanelControl{
                         //для поля комментарий - текстареа
                         if(field.CODE == 'KOMMENTARIY'){
                             fieldForForm += '<div class="tm-popup-task-form">' +
-                                '<label for="' + field.CODE + '">' + field.NAME + '</label>' +
+                                '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
                                 '<textarea ' +
                                 'id="' + field.CODE + '" ' +
                                 'name="' + field.CODE + '" ' +
@@ -137,7 +146,7 @@ class WorkPanelControl{
                             //для даті полле типа даті
                             if(field.USER_TYPE == 'Date'){
                                 fieldForForm += '<div class="tm-popup-task-form">' +
-                                    '<label for="' + field.CODE + '">' + field.NAME + '</label>' +
+                                    '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
                                     '<input ' +
                                     'id="' + field.CODE + '" ' +
                                     'value="' + self.getcurrentTime() + '" ' +
@@ -151,7 +160,7 @@ class WorkPanelControl{
                             //для остального - тип текст
                             else{
                                 fieldForForm += '<div class="tm-popup-task-form">' +
-                                    '<label for="' + field.CODE + '">' + field.NAME + '</label>' +
+                                    '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
                                     '<input ' +
                                     'id="' + field.CODE + '" ' +
                                     'type="text" ' +
@@ -171,7 +180,7 @@ class WorkPanelControl{
                     '<div class="tm-popup-report-text">' +
 
                     '<div class="tm-popup-task-form">' +
-                    '<label for="HOURS">Часы</label>' +
+                    '<label for="HOURS">Часы<span class="required">*</span></label>' +
                     '<input id="HOURS" name="HOURS" required class="tm-popup-task-form-textbox bx-focus">' +
                     '</div>' +
 
