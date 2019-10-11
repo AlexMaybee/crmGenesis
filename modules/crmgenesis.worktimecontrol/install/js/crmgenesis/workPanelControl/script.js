@@ -42,8 +42,12 @@ class WorkPanelControl{
                     && data.result == false){
                     cssVal = {'pointer-events':'none','opacity':'0.5'};
 
-                    $('#popup-window-content-timeman_main .tm-popup-timeman-layout')
-                        .after('<div class="my-workday-error">' + data.error + '</div>');
+
+                    if(data.error != false){
+                        $('#popup-window-content-timeman_main .tm-popup-timeman-layout')
+                            .after('<div class="my-workday-error">' + data.error + '</div>');
+                    }
+
                 }
                 else{
                     cssVal = {'pointer-events':'auto','opacity':'1'};
@@ -180,7 +184,7 @@ class WorkPanelControl{
                     '<div class="tm-popup-report-text">' +
 
                     '<div class="tm-popup-task-form">' +
-                    '<label for="HOURS">Часы<span class="required">*</span></label>' +
+                    '<label for="HOURS">Часы</label>' +
                     '<input id="HOURS" name="HOURS" required class="tm-popup-task-form-textbox bx-focus">' +
                     '</div>' +
 

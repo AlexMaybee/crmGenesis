@@ -34,6 +34,10 @@ class WorkTimeAjax{
             }
             else $result['result'] = true;
         }
+        else{
+            $result['error'] = 'Чтобы завершить рабочий день, необходимо за '.date('d.m.Y', $post['UNICODE_DATE_START'])
+                .' внести в учет времени не менее 5 часов!';
+        }
 
 //        $result['count'] = $count;
 //        $result['DATE_START'] = date('Y-m-d H:i:s',$post['UNICODE_DATE_START']);
