@@ -11,10 +11,10 @@ class WorkPanelControl{
 
         BX.addCustomEvent("onAjaxSuccess", function(data,config){
             if(data.PLANNER){
-                // console.log('DATA:',data);
+                console.log('DATA:',data);
 
                 self.checkHoursWorked(data);
-                self.getDataForPopupFields();
+                self.getDataForPopupFields(data);
             }
         });
     }
@@ -63,7 +63,7 @@ class WorkPanelControl{
 
     }
 
-    getDataForPopupFields(){
+    getDataForPopupFields(bxmassive){
 
         let self = this; //иначе не получится вызвать нужный метод класса
 
@@ -74,7 +74,7 @@ class WorkPanelControl{
             dataType: "json",
             onsuccess: function (data) {
                 if(data.fields.length > 0){
-                    self.addCustomTaskTimeTab(data.fields);
+                    self.addCustomTaskTimeTab(data.fields,bxmassive);
                 }
                 else console.log('Error:',data.error);
             }
@@ -82,7 +82,7 @@ class WorkPanelControl{
     }
 
 
-    addCustomTaskTimeTab(fieldsData){
+    addCustomTaskTimeTab(fieldsData,bxmassive){
         let mdiv = $('#popup-window-content-timeman_main').find('.tm-tabs-box'),
             tab = $('#popup-window-content-timeman_main .task-time-tab'),
             content_tab = $('#popup-window-content-timeman_main .task-time-content'),
@@ -224,7 +224,7 @@ class WorkPanelControl{
 
             //валидация
             $('.task-time-button-panel-add').click(function () {
-                self.validateForm();
+                self.validateForm(bxmassive);
             });
 
             //добавляем title
@@ -237,7 +237,7 @@ class WorkPanelControl{
         }
     }
 
-    validateForm(){
+    validateForm(bxmassive){
 
         //удаление ошибок
         $('#taskTimeAtWorkPanel .myPanelError').remove();
@@ -253,7 +253,7 @@ class WorkPanelControl{
         // console.log("Валидация:", fields);
 
         //часы - RegExp
-        if(fields.HOURS.search(/^[1-9]\d*(\.\d+)?(\,\d+)?$/i) == -1)
+        if(fields.HOURS.search(/^([0](\.|\,)\d+|[1-9]\d*)((\.|\,)\d+)?$/i) == -1)
             this.showError('#HOURS','Укажите количество отработанных часов!');
 
         //дата
@@ -276,7 +276,7 @@ class WorkPanelControl{
             if($('.myPanelError').length < 1){
 
                 console.log('Ошибок нет, создаем элемент списка учета времени!');
-                self.createTaskTimeElement(fields);
+                self.createTaskTimeElement(fields,bxmassive);
             }
         }
     }
@@ -286,7 +286,7 @@ class WorkPanelControl{
         $(selector).after('<div class="myPanelError">' + text + '</div>');
     }
 
-    createTaskTimeElement(fields){
+    createTaskTimeElement(fields,bxmassive){
         let self = this;
 
         fields.ACTION = 'CREATE_NEW_TASK_TIME_ELEMENT';
@@ -302,6 +302,10 @@ class WorkPanelControl{
                 if(data.result != false){
                     $('#taskTimeAtWorkPanel')[0].reset();
                     $('#DATA123').val(fields.DATA123);
+
+                    //18.10.2019  -При успешном сохранении перезапускаем ф-цию проверки отработанных часов
+                    self.checkHoursWorked(bxmassive);
+                    //bxmassive
                 }
                 else{
                     $('#HOURS').closest('.tm-popup-task-form').before('<div class="myPanelError">' + data.error + '</div>');
