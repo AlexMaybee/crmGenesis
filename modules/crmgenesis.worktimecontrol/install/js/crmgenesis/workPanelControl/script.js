@@ -10,10 +10,13 @@ class WorkPanelControl{
         this.ajaxUrl = '/local/modules/crmgenesis.worktimecontrol/ajax.php';
 
         BX.addCustomEvent("onAjaxSuccess", function(data,config){
-            if(data.PLANNER){
-                console.log('DATA:',data);
-
-                self.checkHoursWorked(data);
+            // if(data.PLANNER){
+            //     console.log('DATA:',data);
+            if(data != null && data.INFO) {
+                if (typeof data.INFO != 'undefined') {
+                    self.checkHoursWorked(data);
+                    self.ajaxDataB24 = data;
+                }
                 self.getDataForPopupFields(data);
             }
         });
@@ -96,107 +99,120 @@ class WorkPanelControl{
 
         if(mdiv.length > 0){
 
+            tab.remove();
+            content_tab.remove();
+
             //добавление таба .tm-tabs и контента tm-tabs-content
-            if(tab.length == 0){
-                mdiv.find('.tm-tabs').append('<span class="tm-tab task-time-tab">Учет времени</span>');
-            }
-            if(content_tab.length == 0){
+            mdiv.find('.tm-tabs').append('<span class="tm-tab task-time-tab">Учет времени</span>');
 
-                $.each(fieldsData, function (num,field) {
-                    // console.log(num,field);
-                    if(field.CODE == 'SOTRUDNIK') return;
+            $.each(fieldsData, function (num,field) {
+                // console.log(num,field);
+                if(field.CODE == 'SOTRUDNIK') return;
 
-                    (field.IS_REQUIRED == 'Y') ? required = 'required' : required = '';
-                    if(field.IS_REQUIRED == 'Y') {
-                        requiredField = '<span class="required">*</span>';
-                        required = 'required';
-                    }
-                    else{
-                        requiredField = '';
-                        required = '';
-                    }
+                (field.IS_REQUIRED == 'Y') ? required = 'required' : required = '';
+                if(field.IS_REQUIRED == 'Y') {
+                    requiredField = '<span class="required">*</span>';
+                    required = 'required';
+                }
+                else{
+                    requiredField = '';
+                    required = '';
+                }
 
-                    //если множ., то выводим в селект
-                    if(field.PROPERTY_TYPE == 'L'){
-                        $.each(field.VALUES, function (f,value) {
-                            options += '<option value="' + value.VALUE + '">' + value.TEXT + '</option>';
-                        });
+                //если множ., то выводим в селект
+                if(field.PROPERTY_TYPE == 'L'){
+                    $.each(field.VALUES, function (f,value) {
+                        options += '<option value="' + value.VALUE + '">' + value.TEXT + '</option>';
+                    });
 
+                    fieldForForm += '<div class="tm-popup-task-form">' +
+                        '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
+                        '<select ' +
+                        'id="' + field.CODE + '" ' +
+                        'name="' + field.CODE + '" ' +
+                        required + ' ' +
+                        'class="tm-popup-task-form-textbox bx-focus">' +
+                        options +
+                        '</select></div>';
+                }
+                else{
+
+                    //для поля комментарий - текстареа
+                    if(field.CODE == 'KOMMENTARIY'){
                         fieldForForm += '<div class="tm-popup-task-form">' +
                             '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
-                            '<select ' +
+                            '<textarea ' +
                             'id="' + field.CODE + '" ' +
                             'name="' + field.CODE + '" ' +
                             required + ' ' +
-                            'class="tm-popup-task-form-textbox bx-focus">' +
-                            options +
-                            '</select></div>';
+                            'class="tm-popup-task-form-textbox bx-focus"></textarea>' +
+                            '</div>';
                     }
                     else{
 
-                        //для поля комментарий - текстареа
-                        if(field.CODE == 'KOMMENTARIY'){
+                        //для даті полле типа даті
+                        if(field.USER_TYPE == 'Date'){
                             fieldForForm += '<div class="tm-popup-task-form">' +
                                 '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
-                                '<textarea ' +
+                                '<input ' +
                                 'id="' + field.CODE + '" ' +
+                                'value="' + self.getcurrentTime() + '" ' +
+                                'type="date" ' +
                                 'name="' + field.CODE + '" ' +
                                 required + ' ' +
-                                'class="tm-popup-task-form-textbox bx-focus"></textarea>' +
+                                'class="tm-popup-task-form-textbox bx-focus">' +
                                 '</div>';
                         }
+
+                        //для остального - тип текст
                         else{
-
-                            //для даті полле типа даті
-                            if(field.USER_TYPE == 'Date'){
-                                fieldForForm += '<div class="tm-popup-task-form">' +
-                                    '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
-                                    '<input ' +
-                                    'id="' + field.CODE + '" ' +
-                                    'value="' + self.getcurrentTime() + '" ' +
-                                    'type="date" ' +
-                                    'name="' + field.CODE + '" ' +
-                                    required + ' ' +
-                                    'class="tm-popup-task-form-textbox bx-focus">' +
-                                    '</div>';
-                            }
-
-                            //для остального - тип текст
-                            else{
-                                fieldForForm += '<div class="tm-popup-task-form">' +
-                                    '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
-                                    '<input ' +
-                                    'id="' + field.CODE + '" ' +
-                                    'type="text" ' +
-                                    'name="' + field.CODE + '" ' +
-                                    required + ' ' +
-                                    'class="tm-popup-task-form-textbox bx-focus">' +
-                                    '</div>';
-                            }
+                            fieldForForm += '<div class="tm-popup-task-form">' +
+                                '<label for="' + field.CODE + '">' + field.NAME + ' ' + requiredField + '</label>' +
+                                '<input ' +
+                                'id="' + field.CODE + '" ' +
+                                'type="text" ' +
+                                'name="' + field.CODE + '" ' +
+                                required + ' ' +
+                                'class="tm-popup-task-form-textbox bx-focus">' +
+                                '</div>';
                         }
                     }
-                });
+                }
+            });
 
 
-                mdiv.find('.tm-tabs-content').append('<div class="tm-tab-content task-time-content">' +
-                    '<div class="tm-popup-report">' +
-                    '<form id="taskTimeAtWorkPanel" onsubmit="return false">' +
-                    '<div class="tm-popup-report-text">' +
+            mdiv.find('.tm-tabs-content').append('<div class="tm-tab-content task-time-content">' +
+                '<div class="tm-popup-report">' +
+                '<form id="taskTimeAtWorkPanel" onsubmit="return false">' +
+                '<div class="tm-popup-report-text">' +
 
-                    '<div class="tm-popup-task-form">' +
-                    '<label for="HOURS">Часы</label>' +
-                    '<input id="HOURS" name="HOURS" required class="tm-popup-task-form-textbox bx-focus">' +
-                    '</div>' +
+                '<div class="tm-popup-task-form">' +
+                '<label for="HOURS">Часы</label>' +
+                '<input id="HOURS" name="HOURS" required class="tm-popup-task-form-textbox bx-focus">' +
+                '</div>' +
 
-                    fieldForForm +
-                    '<input type="hidden" name="PROEKT_ID">' + // value="2023"
-                    '</div>' +
-                    '<div class="tm-popup-report-buttons">' +
-                    '<span class="task-time-button-panel-add ui-btn" ' +
-                    'style="display:inline-block!important;background-color:#ad1236;color:#fff">Save' +
-                    '</span></div>' +
-                    '</form></div></div>');
-            }
+                fieldForForm +
+                '<input type="hidden" name="PROEKT_ID">' + // value="2023"
+                '</div>' +
+                '<div class="tm-popup-report-buttons">' +
+                '<span class="task-time-button-panel-add ui-btn" ' +
+                'style="display:inline-block!important;background-color:#ad1236;color:#fff">Save' +
+                '</span></div>' +
+                '</form></div></div>');
+
+            //активируем вкладку Учета времени при открытии попапа
+            $.each(allTabs, function (index,elem) {
+                if($(elem).hasClass('tm-tab-selected'))
+                    $(elem).removeClass('tm-tab-selected');
+            });
+
+            $.each(allTabsContent, function (index,elem) {
+                if($(elem).hasClass('tm-tab-content-selected'))
+                    $(elem).removeClass('tm-tab-content-selected');
+            });
+
+            $('#popup-window-content-timeman_main .task-time-tab').addClass('tm-tab-selected');
+            $('#popup-window-content-timeman_main .task-time-content').addClass('tm-tab-content-selected');
 
             //Работа с дабами и контентом
             $('.tm-tab').click(function () {
@@ -222,16 +238,20 @@ class WorkPanelControl{
 
             });
 
+            $('#taskTimeAtWorkPanel #HOURS').keyup(function () {
+                self.hoursFieldValChange();
+            });
+
             //валидация
-            $('.task-time-button-panel-add').click(function () {
+            $('#taskTimeAtWorkPanel .task-time-button-panel-add').click(function () {
                 self.validateForm(bxmassive);
             });
 
             //добавляем title
-            $('#PROEKT').attr('title','Поиск происходит по словам в названии или полном ID сделки!');
+            $('#taskTimeAtWorkPanel #PROEKT').attr('title','Поиск происходит по словам в названии или полном ID сделки!');
 
             //поиск сделки по названию
-            $('#PROEKT').keyup(function () {
+            $('#taskTimeAtWorkPanel #PROEKT').keyup(function () {
                 self.getDealsListByTitle();
             });
         }
@@ -304,7 +324,10 @@ class WorkPanelControl{
                     $('#DATA123').val(fields.DATA123);
 
                     //18.10.2019  -При успешном сохранении перезапускаем ф-цию проверки отработанных часов
-                    self.checkHoursWorked(bxmassive);
+
+                    console.log('test',self.ajaxDataB24);
+                    self.checkHoursWorked(self.ajaxDataB24);
+                    // self.checkHoursWorked(bxmassive);
                     //bxmassive
                 }
                 else{
@@ -346,7 +369,8 @@ class WorkPanelControl{
             dataType: "json",
             onsuccess: function (data) {
 
-                if(data.result != false){
+                // if(data.result != false){
+                if(dealTitle.length > 0){
 
                     $.each(data.result,function (k,deal) {
                         dealsList += '<li data-d="' + deal.ID + '">' +  deal.TITLE + '</li>';
@@ -390,6 +414,15 @@ class WorkPanelControl{
             $('#taskTimeAtWorkPanel .deals-list ul').empty();
             $('#taskTimeAtWorkPanel .deals-list').remove();
         }
+    }
+
+    //изменение часов в поле
+    hoursFieldValChange(){
+        let wastedTimeH = $('#taskTimeAtWorkPanel #HOURS'),
+            baseTimeHour = '';
+
+        baseTimeHour = wastedTimeH.val().replace(/[^\.\,\d]/g, '').replace( /\,/g, "." ),
+            wastedTimeH.val(baseTimeHour);
     }
 
 }
